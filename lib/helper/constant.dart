@@ -4,7 +4,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 class TokoOnlineKit {
   static const String splash = '/uikit_tokoonline_splash';
   static const String onboarding = '/uikit_tokoonline_onboarding';
-  static const String login = '';
+  static const String signIn = '/uikit_tokoonlinee_signIn';
   static const String home = '';
   static const String detail = '';
   static const String cart = '';
