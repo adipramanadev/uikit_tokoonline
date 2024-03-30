@@ -41,7 +41,19 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Stack(),
+      body: Stack(
+        children: [
+          BuilBody(
+            itemList: _onboardingPageList(context),
+            controller: _pageController,
+            onPageChanged: (v) {
+              setState(() {
+                _currentIndex = v;
+              });
+            },
+          )
+        ],
+      ),
     );
   }
 }

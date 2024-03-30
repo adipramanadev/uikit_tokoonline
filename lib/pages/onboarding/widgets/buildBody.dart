@@ -37,13 +37,13 @@ class BuilBody extends StatelessWidget {
                 const SizedBox(height: 15),
                 Text(
                   item.title!,
-                  style: _theme.textTheme.headline3!.copyWith(fontSize: 30),
+                  style: _theme.textTheme.displaySmall!.copyWith(fontSize: 30),
                   textAlign: TextAlign.center,
                 ),
                 const SizedBox(height: 15),
                 Text(
                   item.subtitle!,
-                  style: _theme.textTheme.subtitle1!.copyWith(fontSize: 15),
+                  style: _theme.textTheme.titleMedium!.copyWith(fontSize: 15),
                   textAlign: TextAlign.center,
                 ),
               ],
