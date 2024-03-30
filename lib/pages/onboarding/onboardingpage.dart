@@ -6,3 +6,4 @@ import 'package:uikit_tokoonline/helper/constant.dart';
 //ui Onboading
 part 'onboarding_screen.dart';
 part '../onboarding/widgets/buildBody.dart';
+part '../onboarding/widgets/buildFooter.dart';
