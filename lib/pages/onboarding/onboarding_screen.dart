@@ -51,6 +51,20 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 _currentIndex = v;
               });
             },
+          ),
+          BuildFooter(
+            index: _currentIndex,
+            dotsCount: _onboardingPageList(context).length,
+            onTap: () {
+              if (_currentIndex == 2) {
+                Get.toNamed<dynamic>(TokoOnlineKit.signIn);
+              } else {
+                _pageController.nextPage(
+                  duration: const Duration(milliseconds: 300),
+                  curve: Curves.ease,
+                );
+              }
+            },
           )
         ],
       ),
