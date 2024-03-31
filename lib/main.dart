@@ -5,6 +5,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:uikit_tokoonline/helper/constant.dart';
 import 'package:uikit_tokoonline/helper/route.dart';
+import 'helper/applocalization.dart';
 import 'pages/splashScreen.dart';
 
 void main() {
@@ -26,9 +27,14 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       getPages: allRouteToko,
-      localizationsDelegates: const [
+      localizationsDelegates: [
+        AppLocalizations.delegate,
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
+      ],
+      supportedLocales: [
+        const Locale('en', ''),
+        const Locale('id', ''),
       ],
       home: AnimatedSplashScreen(
         splash: Assets.logo,
