@@ -15,6 +15,10 @@ class BuildFooter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final _theme = Theme.of(context);
-    return const Placeholder();
+    return Positioned(
+      child: Row(
+        children: [],
+      ),
+    );
   }
 }
