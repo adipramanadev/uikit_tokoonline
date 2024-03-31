@@ -21,12 +21,12 @@ class AppLocalizations {
   }
   String get select_different_products_the_freedom_is_yours =>
       'Pilih Produk yang ada Sukai';
-  String get easy => 'Easy';
+  String get easy => 'Mudah Pembayaran';
   String get pay_for_the_products_you_buy_safely_and_easly =>
       'Kemudahan Dalam Pembayaran';
   String get skip => 'skip';
   String get next => 'next';
   String get done => 'done';
-  String get fast => 'Fast';
+  String get fast => 'Pengiriman Cepat Sampai';
   String get super_fast_delivery_right_at_your_door => 'Pengiriman Cepat';
 }
