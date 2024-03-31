@@ -31,18 +31,18 @@ class BuilBody extends StatelessWidget {
             child: Column(
               children: [
                 Image.asset(
-                  item.image!,
+                  item.image ?? '',
                   width: MediaQuery.of(context).size.height / 2,
                 ),
                 const SizedBox(height: 15),
                 Text(
-                  item.title!,
+                  item.title ?? '',
                   style: _theme.textTheme.displaySmall!.copyWith(fontSize: 30),
                   textAlign: TextAlign.center,
                 ),
                 const SizedBox(height: 15),
                 Text(
-                  item.subtitle!,
+                  item.subtitle ?? '',
                   style: _theme.textTheme.titleMedium!.copyWith(fontSize: 15),
                   textAlign: TextAlign.center,
                 ),

@@ -23,7 +23,7 @@ class BuildFooter extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           InkWell(
-            onTap: () {},
+            onTap: () => Get.toNamed(TokoOnlineKit.signIn),
             borderRadius: BorderRadius.circular(8),
             child: Container(
               width: 70,
@@ -49,7 +49,7 @@ class BuildFooter extends StatelessWidget {
             ),
           ),
           InkWell(
-            onTap: onTap,
+            onTap: () => Get.toNamed(TokoOnlineKit.signIn),
             borderRadius: BorderRadius.circular(8),
             child: Container(
               width: 70,
