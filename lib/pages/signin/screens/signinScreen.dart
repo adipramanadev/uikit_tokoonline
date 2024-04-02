@@ -11,8 +11,13 @@ class _SignInPageState extends State<SignInPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text("SignIn"),
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            const SizedBox(height: 50),
+            
+          ],
+        ),
       ),
     );
   }
