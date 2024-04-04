@@ -24,6 +24,8 @@ class AppLocalizations {
   String get easy => 'Mudah Pembayaran';
   String get pay_for_the_products_you_buy_safely_and_easly =>
       'Kemudahan Dalam Pembayaran';
+  String get welcome_to_back => 'welcome to back';
+  String get sign_in_to_continue => 'Sign In To Continue';
   String get skip => 'skip';
   String get next => 'next';
   String get done => 'done';
