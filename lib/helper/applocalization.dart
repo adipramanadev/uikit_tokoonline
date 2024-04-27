@@ -18,7 +18,9 @@ class AppLocalizations {
 
   String? get product {
     // Return the translated string for "product"
+    return null;
   }
+
   String get select_different_products_the_freedom_is_yours =>
       'Pilih Produk yang ada Sukai';
   String get easy => 'Mudah Pembayaran';
